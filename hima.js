@@ -29,22 +29,22 @@ class Dice {
         }
         this.count = Math.floor(Math.random() * 6 + 1);
         if (this.count == 1) {
-            document.getElementById("die").style.backgroundImage = 'url("src/1.png")';
+            document.getElementById("die").style.backgroundImage = 'url("1.png")';
         }
         if (this.count == 2) {
-            document.getElementById("die").style.backgroundImage = 'url("src/2.png")';
+            document.getElementById("die").style.backgroundImage = 'url("2.png")';
         }
         if (this.count == 3) {
-            document.getElementById("die").style.backgroundImage = 'url("src/3.png")';
+            document.getElementById("die").style.backgroundImage = 'url("3.png")';
         }
         if (this.count == 4) {
-            document.getElementById("die").style.backgroundImage = 'url("src/4.png")';
+            document.getElementById("die").style.backgroundImage = 'url("4.png")';
         }
         if (this.count == 5) {
-            document.getElementById("die").style.backgroundImage = 'url("src/5.png")';
+            document.getElementById("die").style.backgroundImage = 'url("5.png")';
         }
         if (this.count == 6) {
-            document.getElementById("die").style.backgroundImage = 'url("src/6.png")';
+            document.getElementById("die").style.backgroundImage = 'url("6.png")';
         }
         if (this.type == 1) {
             if (this.r.checker()) {
